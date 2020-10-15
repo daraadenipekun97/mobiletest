@@ -1,0 +1,426 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+@font-face{
+    font-family:Avenir Bold; 
+    src:url(../avenir_ff/AvenirLTStd-Black.otf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family:Avenir Book; 
+    src:url(../avenir_ff/AvenirLTStd-Book.otf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+h3{
+    font-family:"Avenir Bold";
+}
+li, a, button, p, small, ::placeholder, label{
+font-family:"Avenir Book";
+text-decoration:none;
+}
+span{
+   color:#6699FF;
+}
+#main_container{
+    width:100%;
+    height:48vw;
+    padding:5vw;
+    
+   
+}
+
+#inner_div{
+    width:90%;
+    height:37vw;
+    margin:auto;
+    display:flex;
+   
+  
+  
+  
+}
+#picture_div{
+    width:40%;
+    height:37vw;
+    background-image: url("../images/doctor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#transparentbox{
+    width:100%;
+    height:37vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align:center;
+    vertical-align:center;
+
+}
+#transparentbox h3{
+    color:white;
+    font-size:3vw;
+    padding-top:15vw;
+
+}
+#form_div{
+    width:100%;
+    height:37vw;
+   text-align: center;
+    padding-top:2%;
+    border:none;
+    background-color: #021438;
+    
+}
+#form_div p{
+    font-size: 2vw;
+    line-height: 5vw;
+    color:white;
+}
+#icons{
+    display:flex;
+    width:10%;
+    margin: auto;
+    margin-bottom: 1vw;
+}
+.imgone{
+    width:2vw;
+    height:2vw;
+    cursor: pointer;
+    color:white;
+    margin:auto;
+}
+.imgone img{
+    width:100%;
+
+}
+#form_div small{
+    color:white;
+   
+}
+form{
+  
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+   
+    
+}
+input{
+    display:block;
+    width:50%;
+    margin: auto;
+    margin-bottom: 2vw;
+    padding:.5vw;
+    outline: none;
+    border:none;
+    border-radius: 50px;
+    padding:10px 20px;
+}
+#checkboxes{
+    margin-bottom:5%;
+}
+
+#checkboxes input{
+    margin: 10px; 
+   
+
+   
+}
+#checkboxes label{
+    position:absolute;
+    left:49vw;
+    top:46.5vw !important;
+    font-size:1vw;
+    color:white;
+    
+    
+}
+#checkboxes a{
+    text-decoration: underline;
+    font-size:1vw;
+    position:absolute;
+    left:68vw;
+    top:46.5vw !important;
+    color:white;
+}
+#checkboxes a:hover{
+
+    color:red;
+}
+
+.btn1{
+    width:50%;
+    padding:10px 20px;
+    background-color:white ;
+    color:#021438;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+.btn1:hover{
+  
+    padding:10px 20px;
+    background-color:#6699FF;
+    color:#021438;
+    border:none;
+    border-radius: 50px;
+
+}
+#form_div a{
+    font-size:1vw;
+    color:white;
+}
+#form_div a:hover{
+    font-size:1vw;
+    color:red;
+}
+#main_container a{
+    
+    font-size: 1vw;
+    color:white;
+ 
+}
+#main_container a:hover{
+    font-size: 1vw;
+    color:red;
+   
+   
+    
+
+}
+
+
+/*------------------------------------------------------------------ media queries ------------------------------------------------*/
+/*------------------------------------------------------------------ media queries ------------------------------------------------*/
+/*------------------------------------------------------------------ media queries ------------------------------------------------*/
+
+@media (max-width:948px){
+    #form_div{
+        
+        padding-top:0%;
+        
+    }
+    #checkboxes label{
+        
+        top:35.5vw;
+       
+        
+        
+    }
+    #main_container{
+       margin-top: 0%;
+       
+       
+       
+    }
+    #checkboxes a{
+       
+        position:absolute;
+        left:68vw;
+        top:35.5vw;
+    }
+    
+       
+        
+}
+@media (min-width:871px){
+
+    #checkboxes label{
+        
+        top:47.5vw;
+       
+        
+        
+    }
+    #main_container{
+        margin-top: 20%;
+        
+        
+        
+     }
+     #checkboxes a{
+       
+      
+        top:47.2vw;
+    }
+}
+@media (max-width:871px){
+    #form_div{
+        
+        padding-top:0%;
+        
+    }
+    #checkboxes label{
+        
+        top:35.9vw;
+       
+        
+        
+    }
+    #main_container{
+       margin-top: 10%;    
+    }
+    #checkboxes a{
+        top:35.9vw;
+    }
+    
+       
+        
+}
+@media (max-width:870px){
+    #checkboxes label{
+        
+        top:38.5vw;
+       
+        
+        
+    }
+    #checkboxes a{
+        
+        top:38.5vw;
+        
+    }
+
+}
+@media (max-width:837px){
+    #checkboxes label{
+        
+        top:38.5vw;
+       
+        
+        
+    }
+    #checkboxes a{
+        top:38.5vw;
+        left:68vw;
+        
+    }
+
+}
+@media (max-width:803px){
+    #form_div{
+        
+        padding-top:0%;
+        
+    }
+    #checkboxes label{
+        
+        top:36.5vw;
+       
+        
+        
+    }
+    #main_container{
+       margin-top: 10%;    
+    }
+    #checkboxes a{
+        top:36.5vw;
+    }
+    #checkboxes label{
+        position:absolute;
+        left:49vw;
+        top:39.5vw;
+        font-size:1vw;
+        color:white;
+        
+        
+    }
+    #checkboxes a{
+        text-decoration: underline;
+        font-size:1vw;
+        position:absolute;
+        left:68vw;
+        top:39.5vw;
+        color:white;
+    }
+    
+       
+        
+}
+@media (max-width:795px){
+
+    #checkboxes label{
+        
+        top:47.5vw;
+       
+        
+        
+    }
+    #main_container{
+        margin-top: 0%;
+        
+        
+        
+     }
+     #checkboxes a{
+       
+      
+        top:47.2vw;
+    }
+    #form_div{
+   
+    height:70vw;
+    padding-top: 10%;  
+   }
+   #main_container{
+    width:100%;
+    height:100vw;
+    padding:5vw;
+   
+   
+   
+}
+#inner_div{
+    width:90%;
+    height:70vw;
+    margin:auto;
+    display:flex;
+   
+  
+  
+  
+}
+#picture_div{
+    width:40%;
+    height:70vw;
+   
+
+}
+#transparentbox{
+    width:100%;
+    height:70vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align:center;
+    vertical-align:center;
+
+}
+#checkboxes label{
+        
+   display:none;
+   
+    
+    
+}
+#checkboxes a{
+        
+    display:none;
+   
+    
+    
+}
+#checkboxes input{
+    display:none;
+}
+#transparentbox h3{
+    color:white;
+    font-size:3vw;
+    padding-top:30vw;
+
+}
+
+}
