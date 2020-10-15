@@ -205,15 +205,6 @@ padding:0px 20px;
    
     
 }
-.icons:hover{
-    width:10vw;
-    height:5vw;
-    border:2px solid  #6699FF;
-    border-radius: 100%;
-   
-    
-    
-}
 .fas{
     font-size:4vw;
     color:white;
@@ -221,9 +212,6 @@ padding:0px 20px;
 }
 .icons_text{
     color:#6699FF;
-   
-   
-    
 }
 #sectionthree_text h3{
     font-size:3vw;
@@ -239,7 +227,6 @@ padding:0px 20px;
     border:none;
     border-radius: 50px;
     cursor: pointer;
-    
 
 }
 .btn2:hover{
@@ -732,11 +719,86 @@ ul li{
         font-size:2vw;
          
     }
-    #sectionfour_text p{
-        font-size:2vw;
+    #sectionfour_text h3{
+        padding-top:20px;
         
          
     }
+    #sectionfour_text p{
+        font-size:2vw;
+        line-height:3vw;
+        
+         
+    }
+    #sectionthree_text h3{
+        font-size:4vw;
+        color:#003399;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+      
+       
+    
+    }
+    .icons_text p{
+        font-size:9px;
+    }
+    .btn1{
+
+        padding:5px 10px;
+        background-color:#002163 ;
+        width:100%;
+        font-size:15px;
+        
+        
+    
+    }
+    .btn2{
+
+        padding:5px 10px;
+        background-color:#002163 ;
+        width:30%;
+        font-size:10px;
+        
+        
+    
+    }
+    .nav_links{
+        display:none;
+    }
+    #bars{
+        position:absolute;
+        right:40px;
+        top:23px;
+        display:block;
+        cursor: pointer;
+       
+       
+    }
+    
+    .nav_links{
+        position: absolute;
+        right:0px;
+        top:72px;
+        background-color:white;
+        height:100vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top:50px;
+        width:100%;
+        transform: translateX(100%);
+       
+
+    }
+    .nav_links li{
+        margin-bottom: 100px;
+       color:rgb(2, 2, 66);
+    }
+    .nav-active{
+        transform: translateX(0%);
+        transition: transform 0.5s ease-in-out ;
+    }
+    
 
 
 }

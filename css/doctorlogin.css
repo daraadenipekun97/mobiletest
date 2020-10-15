@@ -424,3 +424,56 @@ input{
 }
 
 }
+@media (max-width:370px){
+
+
+    #main_container{
+        margin-top: 30%;
+        
+        
+        
+     }
+     .btn1{
+       
+        padding:5px 20px;
+        margin-top: 3vw;
+        background: #003399;
+        color:white;    
+       
+    
+    }
+    input{
+        padding-top:2px;
+        padding-bottom:5px;
+        padding-left:10px;
+        margin-top: 10px;
+        width:70%;
+    }
+    #decor1{
+        display: none;
+    }
+    #transparentbox{
+        
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align:center;
+        vertical-align:center;
+    
+    }
+    #transparentbox h3{
+        padding-top:35vw;
+    }
+    #form_div{
+        
+        padding-top:20%;
+        
+    }
+    ::placeholder{
+        font-size:2vw;
+    }
+    #form_div p{
+        font-size:20px;
+    }
+
+
+}
+
